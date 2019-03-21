@@ -5,6 +5,6 @@ elsif array.length === 2
 array.join(" and ")
 elsif array.length === 3
 insert(2, " and ")
-array[0].join(", ")
+array[0..1].join(", ")
 end
 end
