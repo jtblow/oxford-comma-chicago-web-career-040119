@@ -4,6 +4,6 @@ if array.length === 1
 elsif array.length === 2 
 array.join(" and ")
 elsif === 3
-array.slice(0..1) 
+array.slice(0..1) + ",and " + array.slice(2)
 end
 end
