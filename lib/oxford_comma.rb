@@ -4,7 +4,7 @@ if array.length === 1
 elsif array.length === 2 
 array.join(" and ")
 elsif array.length === 3
-array.insert(2, " and ")
-array.join(", ")
+insert(2, " and ")
+array[0].join(", ")
 end
 end
